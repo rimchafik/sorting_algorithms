@@ -6,12 +6,11 @@
  * @array: The array of integer
  * @size: The size of the array
  *
- * Return: void
  */
 void bubble_sort(int *array, size_t size)
 {
-	size_t temp;
-	int i, k;
+	int temp;
+	size_t i, k;
 
 	if (!array || !size)
 		return;
